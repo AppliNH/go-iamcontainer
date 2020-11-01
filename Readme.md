@@ -8,7 +8,7 @@ Have look [here](http://codelectron.com/how-to-get-a-linux-root-filesystem/) :)
 
 ## Run
 
-After downloading the root file system of your choice, extract it to `./rootfs` and modify this line of code to point to it :
+After downloading the root file system of your choice, extract it to `./rootfs` and modify this line of code to target it :
 
 ```go
 syscall.Chroot("./rootfs/alpine")
